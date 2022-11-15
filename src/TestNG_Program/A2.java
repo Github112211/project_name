@@ -7,7 +7,8 @@ import org.testng.annotations.Test;
 public class A2 {
 	
 	@Test
-	public void TC4() {Reporter.log("Running TC4",true);}
+	public void TC4() {Reporter.log("Running TC4",true);
+			Reporter.log("How are you vinay",true);}
 
 	@Test
 	public void TC5() {Reporter.log("Running TC5",true);
