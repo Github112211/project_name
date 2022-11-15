@@ -11,6 +11,9 @@ public class A1 {
 	public void TC2() {Reporter.log("Running TC2",true);}
 
 	@Test
-	public void TC3() {Reporter.log("Running TC3",true);}
+	public void TC3() {Reporter.log("Running TC3",true);
+			  Reporter.log("Hi",true);}
+			  }
+	
 	}
 
